@@ -65,6 +65,24 @@ body div header nav img{
 .NuestroEquipText{
     grid-area: NuestroEquipText;
 }
+
+.flex-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ImgServices{
+    height: 100px;
+    margin: 20px;
+}
+.ImgServices img{
+    height: 100px;
+}
+.TextServices{
+    height: 100px;
+    width: 50%;
+}
 /*!--MAIN END--*/
 /*!--FOOTER Start--*/
 .footer{
