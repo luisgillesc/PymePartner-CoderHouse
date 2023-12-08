@@ -1,0 +1,32 @@
+/*!--Reset--*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*!--HEADER Start--*/
+body div header nav img{
+    height: 84px;
+}
+/*!--HEADER END--*/
+/*!--MAIN Start--*/
+.titulo-index-01{
+    margin: 5px;
+}
+.descrip-index-01{
+    margin: 5px;
+}
+/*!--MAIN END--*/
+/*!--FOOTER Start--*/
+.footer{
+    padding: 20px;
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+}
+.footer h2{
+    font-size: larger;
+    color: white;
+}
+/*!--FOOTER END--*/
+
