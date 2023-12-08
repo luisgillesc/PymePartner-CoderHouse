@@ -16,6 +16,55 @@ body div header nav img{
 .descrip-index-01{
     margin: 5px;
 }
+.grid-contenedor{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas:
+    "QuinesSomosImage QuinesSomosText QuinesSomosText"
+    "VisionText VisionText VisionImage"
+    "MisionsImage MisionText MisionText"
+    "NuestroEquipText NuestroEquipText NuestroEquipImage"
+    ;
+    align-items: center;
+    justify-content: center;
+}
+.grid-contenedor div img{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+
+.QuinesSomosImage{
+    grid-area: QuinesSomosImage;
+    display: flex;
+}
+.QuinesSomosText{
+    grid-area: QuinesSomosText;
+}
+.VisionImage{
+    grid-area: VisionImage;
+
+}
+.VisionText{
+    grid-area: VisionText;
+}
+.MisionsImage{
+    grid-area: MisionsImage;
+
+}
+.MisionText{
+    grid-area: MisionText;
+}
+.NuestroEquipImage{
+    grid-area: NuestroEquipImage;
+
+}
+.NuestroEquipText{
+    grid-area: NuestroEquipText;
+}
 /*!--MAIN END--*/
 /*!--FOOTER Start--*/
 .footer{
@@ -32,3 +81,21 @@ body div header nav img{
 }
 /*!--FOOTER END--*/
 
+@media screen and (max-width:680px){
+    .grid-contenedor{
+        grid-template-rows: 250px auto auto auto;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "QuinesSomosImage"
+        "QuinesSomosText"
+        "VisionImage"
+        "VisionText"
+        "MisionsImage" 
+        "MisionText"
+        "NuestroEquipImage" 
+        "NuestroEquipText"
+        ;
+        align-items: center;
+        justify-content: center;
+    }
+}
