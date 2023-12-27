@@ -50,7 +50,14 @@ body div header nav img{
     grid-area: QuinesSomosText;
     text-align: justify;
     padding: 30px;
+    font-size: 20px;
 }   
+
+.QuinesSomosText h3{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 20px 0px 20px;
+}
 .VisionImage{
     grid-area: VisionImage;
     display: flex;
@@ -65,6 +72,12 @@ body div header nav img{
     grid-area: VisionText;
     text-align: justify;
     padding: 30px;
+    font-size: 20px;
+}
+.VisionText h3{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 20px 0px 20px;
 }
 .MisionsImage{
     grid-area: MisionsImage;
@@ -80,6 +93,12 @@ body div header nav img{
     grid-area: MisionText;
     text-align: justify;
     padding: 30px;
+    font-size: 20px;
+}
+.MisionText h3{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 20px 0px 20px;
 }
 .NuestroEquipImage{
     grid-area: NuestroEquipImage;
@@ -95,6 +114,12 @@ body div header nav img{
     grid-area: NuestroEquipText;
     text-align: justify;
     padding: 30px;
+    font-size: 20px;
+}
+.NuestroEquipText h3{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 20px 0px 20px;
 }
 
 .flex-contenedor{
