@@ -21,9 +21,9 @@ body div header nav img{
 }
 .grid-contenedor{
     width: 80%;
-    margin: 30px auto;
+    margin: 30px auto;  
     display: grid;
-    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-rows: 300px 300px 300px 300px;
     grid-template-columns: repeat(3,1fr);
     grid-template-areas:
     "QuinesSomosImage QuinesSomosText QuinesSomosText"
