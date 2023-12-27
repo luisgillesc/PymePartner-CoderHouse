@@ -49,40 +49,52 @@ body div header nav img{
 .QuinesSomosText{
     grid-area: QuinesSomosText;
     text-align: justify;
-    padding: 20px;
+    padding: 30px;
 }   
 .VisionImage{
     grid-area: VisionImage;
     display: flex;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url("../img/pic02.jpg");
 
 }
 .VisionText{
     grid-area: VisionText;
     text-align: justify;
+    padding: 30px;
 }
 .MisionsImage{
     grid-area: MisionsImage;
     display: flex;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url("../img/pic03.jpg");
 
 }
 .MisionText{
     grid-area: MisionText;
     text-align: justify;
+    padding: 30px;
 }
 .NuestroEquipImage{
     grid-area: NuestroEquipImage;
     display: flex;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url("../img/pic02.jpg");
 
 }
 .NuestroEquipText{
     grid-area: NuestroEquipText;
     text-align: justify;
+    padding: 30px;
 }
 
 .flex-contenedor{
