@@ -125,7 +125,6 @@ body div header nav img{
     display: flex;
     justify-content: center;
     padding: 30px 0px 0px 0px;
-    font-size: 50px;
 
 }
 .flex-contenedor{
@@ -136,19 +135,30 @@ body div header nav img{
     
 }
 .ImgServices{
-    height: 100px;
+    height: 300px;
     margin: 30px;
+    justify-content: center;
 }
 .ImgServices img{
-    height: 100px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
 }
 .TextServices{
-    height: 100px;
+    height: 300px;
     width: 50%;
     text-align: justify;
+    font-size: 20px;
+    justify-content: right;
 }
 .text-h2-Rigth h2{
     text-align: right;
+}
+.TextServices h2{
+    border: 2px solid black;
+    /*width: fit-content;*/
+    padding: 20px 10px 20px 10px;
+    width: auto;
 }
 
 /*!--MAIN END--*/
@@ -183,5 +193,11 @@ body div header nav img{
         ;
         align-items: center;
         justify-content: center;
+    }
+}
+@media screen and (max-width:850px){
+    .flex-contenedor{
+        flex-direction: column;
+        justify-content: space-between;
     }
 }
