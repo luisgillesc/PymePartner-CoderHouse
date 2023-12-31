@@ -160,7 +160,21 @@ body div header nav img{
     padding: 20px 10px 20px 10px;
     width: auto;
 }
+.Main-Planes{
+    margin: 50px;
+}
+.Planes-section{
+    margin: 50px;
+}
+.Planes-section article h2{
+    border: 3px solid black;
+    margin: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
 
+}
+.Planes-section article{
+    font-size: 20px;
+}
 /*!--MAIN END--*/
 /*!--FOOTER Start--*/
 .footer{
