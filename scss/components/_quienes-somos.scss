@@ -25,8 +25,7 @@
 .QuinesSomosText{
     grid-area: QuinesSomosText;
     text-align: justify;
-    padding: 30px;
-    font-size: 20px;
+    @include padfont;
     h3{
         border: 2px solid $color;
         width: fit-content;
@@ -46,8 +45,7 @@
 .VisionText{
     grid-area: VisionText;
     text-align: justify;
-    padding: 30px;
-    font-size: 20px;
+    @include padfont;
     h3{
         border: 2px solid $color;
         width: fit-content;
@@ -67,8 +65,7 @@
 .MisionText{
     grid-area: MisionText;
     text-align: justify;
-    padding: 30px;
-    font-size: 20px;
+    @include padfont;
     h3{
         border: 2px solid $color;
         width: fit-content;
@@ -88,8 +85,7 @@
 .NuestroEquipText{
     grid-area: NuestroEquipText;
     text-align: justify;
-    padding: 30px;
-    font-size: 20px;
+    @include padfont;
     h3{
         border: 2px solid $color;
         width: fit-content;
