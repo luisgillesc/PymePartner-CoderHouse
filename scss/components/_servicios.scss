@@ -1,0 +1,38 @@
+.Section-h2{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 0px 0px;
+}
+.flex-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ImgServices{
+    height: 300px;
+    margin: 30px;
+    justify-content: center;
+    img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+.TextServices{
+    height: 300px;
+    width: 50%;
+    text-align: justify;
+    font-size: 20px;
+    justify-content: right;
+    h2{
+        border: 2px solid black;
+        /*width: fit-content;*/
+        padding: 20px 10px 20px 10px;
+        width: auto;
+    }
+}
+.text-h2-Rigth{
+    h2{
+        text-align: right;
+    }
+}

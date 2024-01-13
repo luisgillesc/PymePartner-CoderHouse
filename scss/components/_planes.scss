@@ -1,0 +1,44 @@
+.Main-Planes{
+    margin: 50px;
+}
+.Planes-section{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    article{
+        font-size: 20px;
+        width: 100%;
+        height: 300px;
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2{
+            border: 3px solid black;
+            border-radius: 20px;
+            margin: 20px 0px 20px 0px;
+            padding: 20px;
+            width: 50%;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            width: 50%;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.Planes-section-reverse-article{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-end;
+}

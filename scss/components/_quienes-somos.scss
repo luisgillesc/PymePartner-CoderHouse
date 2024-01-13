@@ -1,0 +1,98 @@
+.grid-contenedor{
+    width: 80%;
+    margin: 30px auto;  
+    display: grid;
+    grid-template-rows: 300px 300px 300px 300px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas:
+    "QuinesSomosImage QuinesSomosText QuinesSomosText"
+    "VisionText VisionText VisionImage"
+    "MisionsImage MisionText MisionText"
+    "NuestroEquipText NuestroEquipText NuestroEquipImage"
+    ;
+    align-items: center;
+    justify-content: center;
+}
+.QuinesSomosImage{
+    grid-area: QuinesSomosImage;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url("../img/pic01.jpg");
+}
+.QuinesSomosText{
+    grid-area: QuinesSomosText;
+    text-align: justify;
+    padding: 30px;
+    font-size: 20px;
+    h3{
+        border: 2px solid $color;
+        width: fit-content;
+        padding: 0px 20px 0px 20px;
+    }
+}   
+.VisionImage{
+    grid-area: VisionImage;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url("../img/pic02.jpg");
+
+}
+.VisionText{
+    grid-area: VisionText;
+    text-align: justify;
+    padding: 30px;
+    font-size: 20px;
+    h3{
+        border: 2px solid $color;
+        width: fit-content;
+        padding: 0px 20px 0px 20px;
+    }
+}
+.MisionsImage{
+    grid-area: MisionsImage;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url("../img/pic03.jpg");
+
+}
+.MisionText{
+    grid-area: MisionText;
+    text-align: justify;
+    padding: 30px;
+    font-size: 20px;
+    h3{
+        border: 2px solid $color;
+        width: fit-content;
+        padding: 0px 20px 0px 20px;
+    }
+}
+.NuestroEquipImage{
+    grid-area: NuestroEquipImage;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url("../img/pic02.jpg");
+
+}
+.NuestroEquipText{
+    grid-area: NuestroEquipText;
+    text-align: justify;
+    padding: 30px;
+    font-size: 20px;
+    h3{
+        border: 2px solid $color;
+        width: fit-content;
+        padding: 0px 20px 0px 20px;
+    }
+}

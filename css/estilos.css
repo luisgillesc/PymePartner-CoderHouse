@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body div header div div nav a img {
+  height: 84px; }
+
+.titulo-index-01 {
+  margin: 5px; }
+
+.sectio-carousel {
+  margin: 30px 0px 0px 0px; }
+
+.grid-contenedor {
+  width: 80%;
+  margin: 30px auto;
+  display: grid;
+  grid-template-rows: 300px 300px 300px 300px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "QuinesSomosImage QuinesSomosText QuinesSomosText" "VisionText VisionText VisionImage" "MisionsImage MisionText MisionText" "NuestroEquipText NuestroEquipText NuestroEquipImage";
+  align-items: center;
+  justify-content: center; }
+
+.QuinesSomosImage {
+  grid-area: QuinesSomosImage;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("../img/pic01.jpg"); }
+
+.QuinesSomosText {
+  grid-area: QuinesSomosText;
+  text-align: justify;
+  padding: 30px;
+  font-size: 20px; }
+  .QuinesSomosText h3 {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 20px 0px 20px; }
+
+.VisionImage {
+  grid-area: VisionImage;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("../img/pic02.jpg"); }
+
+.VisionText {
+  grid-area: VisionText;
+  text-align: justify;
+  padding: 30px;
+  font-size: 20px; }
+  .VisionText h3 {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 20px 0px 20px; }
+
+.MisionsImage {
+  grid-area: MisionsImage;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("../img/pic03.jpg"); }
+
+.MisionText {
+  grid-area: MisionText;
+  text-align: justify;
+  padding: 30px;
+  font-size: 20px; }
+  .MisionText h3 {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 20px 0px 20px; }
+
+.NuestroEquipImage {
+  grid-area: NuestroEquipImage;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("../img/pic02.jpg"); }
+
+.NuestroEquipText {
+  grid-area: NuestroEquipText;
+  text-align: justify;
+  padding: 30px;
+  font-size: 20px; }
+  .NuestroEquipText h3 {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 20px 0px 20px; }
+
+.Section-h2 {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px 0px 0px; }
+
+.flex-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.ImgServices {
+  height: 300px;
+  margin: 30px;
+  justify-content: center; }
+  .ImgServices img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px; }
+
+.TextServices {
+  height: 300px;
+  width: 50%;
+  text-align: justify;
+  font-size: 20px;
+  justify-content: right; }
+  .TextServices h2 {
+    border: 2px solid black;
+    /*width: fit-content;*/
+    padding: 20px 10px 20px 10px;
+    width: auto; }
+
+.text-h2-Rigth h2 {
+  text-align: right; }
+
+.Main-Planes {
+  margin: 50px; }
+
+.Planes-section {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .Planes-section article {
+    font-size: 20px;
+    width: 100%;
+    height: 300px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .Planes-section article h2 {
+      border: 3px solid black;
+      border-radius: 20px;
+      margin: 20px 0px 20px 0px;
+      padding: 20px;
+      width: 50%;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .Planes-section article p {
+      width: 50%;
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+
+.Planes-section-reverse-article {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: flex-end; }
+
+.footer {
+  width: 100%;
+  display: flex;
+  height: 300px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap; }
+  .footer h2 {
+    font-size: larger;
+    color: white; }
+
+@media screen and (max-width: 1106px) {
+  .grid-contenedor {
+    grid-template-rows: 250px auto auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: "QuinesSomosImage" "QuinesSomosText" "VisionImage" "VisionText" "MisionsImage"  "MisionText" "NuestroEquipImage"  "NuestroEquipText";
+    align-items: center;
+    justify-content: center; } }
+
+@media screen and (max-width: 850px) {
+  .flex-contenedor {
+    flex-direction: column;
+    justify-content: space-between; } }
+
+@media screen and (max-width: 1064px) {
+  .Planes-section article {
+    font-size: 20px;
+    width: 100%;
+    height: 800px;
+    margin: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .Planes-section article h2 {
+      border: 3px solid black;
+      border-radius: 20px;
+      margin: 40px 0px 20px 0px;
+      padding: 20px;
+      width: 50%;
+      height: 700px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .Planes-section article p {
+      width: 50%;
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center; } }
