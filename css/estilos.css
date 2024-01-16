@@ -12,6 +12,9 @@ body div header div div nav a img {
 .sectio-carousel {
   margin: 30px 0px 0px 0px; }
 
+.maergentext {
+  padding: 10px; }
+
 .grid-contenedor {
   width: 80%;
   margin: 30px auto;
